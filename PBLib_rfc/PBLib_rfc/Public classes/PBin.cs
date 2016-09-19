@@ -14,7 +14,7 @@ namespace PBLib
 
     public abstract class PBin
     {
-        protected In inValue;
+        internal In inValue;
 
     }
 

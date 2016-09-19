@@ -4,15 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AD90476E-FF7A-4A4F-8306-C927F43B41F4}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{FE22CA34-8B42-438B-A79B-C98AA782A299}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PBLib_rfc</RootNamespace>
-    <AssemblyName>PBLib_rfc</AssemblyName>
+    <RootNamespace>Test</RootNamespace>
+    <AssemblyName>Test</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +23,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -39,19 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BinValueStorage.cs" />
-    <Compile Include="Internal classes\In.cs" />
-    <Compile Include="Internal classes\In128.cs" />
-    <Compile Include="Internal classes\In256.cs" />
-    <Compile Include="Internal classes\In32.cs" />
-    <Compile Include="Internal classes\In64.cs" />
-    <Compile Include="PBFunc.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Public classes\PBin.cs" />
-    <Compile Include="Public classes\PBin128.cs" />
-    <Compile Include="Public classes\PBin256.cs" />
-    <Compile Include="Public classes\PBin32.cs" />
-    <Compile Include="Public classes\PBin64.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PBLib_rfc\PBLib_rfc.csproj">
+      <Project>{ad90476e-ff7a-4a4f-8306-c927f43b41f4}</Project>
+      <Name>PBLib_rfc</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

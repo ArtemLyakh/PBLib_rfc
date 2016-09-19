@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PBLib_rfc", "PBLib_rfc\PBLi
 EndProject
 Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject", "ModelingProject\ModelingProject.modelproj", "{0F653BD2-03D4-4A0C-BF1E-C7D1B5AAA2CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelingProjectLib", "ModelingProjectLib\ModelingProjectLib.csproj", "{4A65550C-589E-4026-8D78-688192B743EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{FE22CA34-8B42-438B-A79B-C98AA782A299}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{0F653BD2-03D4-4A0C-BF1E-C7D1B5AAA2CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F653BD2-03D4-4A0C-BF1E-C7D1B5AAA2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F653BD2-03D4-4A0C-BF1E-C7D1B5AAA2CF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4A65550C-589E-4026-8D78-688192B743EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4A65550C-589E-4026-8D78-688192B743EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4A65550C-589E-4026-8D78-688192B743EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4A65550C-589E-4026-8D78-688192B743EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE22CA34-8B42-438B-A79B-C98AA782A299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE22CA34-8B42-438B-A79B-C98AA782A299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE22CA34-8B42-438B-A79B-C98AA782A299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE22CA34-8B42-438B-A79B-C98AA782A299}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

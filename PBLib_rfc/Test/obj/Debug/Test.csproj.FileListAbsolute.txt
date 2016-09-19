@@ -1,0 +1,8 @@
+D:\PBLib_rfc\PBLib_rfc\PBLib_rfc\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+D:\PBLib_rfc\PBLib_rfc\PBLib_rfc\Test\bin\Debug\Test.exe.config
+D:\PBLib_rfc\PBLib_rfc\PBLib_rfc\Test\bin\Debug\Test.exe
+D:\PBLib_rfc\PBLib_rfc\PBLib_rfc\Test\bin\Debug\Test.pdb
+D:\PBLib_rfc\PBLib_rfc\PBLib_rfc\Test\bin\Debug\PBLib_rfc.dll
+D:\PBLib_rfc\PBLib_rfc\PBLib_rfc\Test\bin\Debug\PBLib_rfc.pdb
+D:\PBLib_rfc\PBLib_rfc\PBLib_rfc\Test\obj\Debug\Test.exe
+D:\PBLib_rfc\PBLib_rfc\PBLib_rfc\Test\obj\Debug\Test.pdb

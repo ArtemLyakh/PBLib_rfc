@@ -14,6 +14,18 @@ namespace PBLib
 
     internal class In32 : In
     {
+        private readonly int mantSize = 21;
+        private readonly int expSize = 8;
+
+        public override int MantLength
+        {
+            get { return mantSize; }
+        }
+
+        public override int ExpLength
+        {
+            get { return expSize; }
+        }
     }
 
 }

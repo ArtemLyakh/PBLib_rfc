@@ -14,6 +14,44 @@ namespace PBLib
 
     internal abstract class In
     {
+        protected string sign;
+        protected string exp;
+        protected string mant;
+
+        public string Sign { get { return sign; } set { sign = value; } }
+        public string Mant { get { return mant; } set { mant = value; } }
+        public string Exp { get { return exp; } set { exp = value; } }
+
+        public abstract int MantLength
+        {
+            get;
+        }
+
+        public abstract int ExpLength
+        {
+            get;
+        }
+
+        protected void FillValuesByString(string input)
+        {
+            //коррекция строки
+            input = PBFunc.CorrectString(input);
+
+            //преобразование строки в бинарные значения
+            BinValueStorage BinValues = PBFunc.ConvertToBin(input, intype);
+
+            //преобразование в финальный формат с округлением
+            BinValues = PBFunc.MakeRounding(BinValues, intype);
+
+            //заполнение внутренних полей
+            sign = BinValues.sign;
+            mant = BinValues.mant;
+            exp = BinValues.exp;
+        }
+
+
+
     }
+
 
 }

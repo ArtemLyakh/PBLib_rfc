@@ -1,0 +1,5 @@
+D:\PBLib_rfc\PBLib_rfc\PBLib_rfc\PBLib_rfc\obj\Debug\PBLib_rfc.csprojResolveAssemblyReference.cache
+D:\PBLib_rfc\PBLib_rfc\PBLib_rfc\PBLib_rfc\bin\Debug\PBLib_rfc.dll
+D:\PBLib_rfc\PBLib_rfc\PBLib_rfc\PBLib_rfc\bin\Debug\PBLib_rfc.pdb
+D:\PBLib_rfc\PBLib_rfc\PBLib_rfc\PBLib_rfc\obj\Debug\PBLib_rfc.dll
+D:\PBLib_rfc\PBLib_rfc\PBLib_rfc\PBLib_rfc\obj\Debug\PBLib_rfc.pdb
