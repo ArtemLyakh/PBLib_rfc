@@ -9,7 +9,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public class In32 : In
+namespace PBLib
 {
-}
 
+    public class In32 : In
+    {
+    }
+
+}

@@ -9,7 +9,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public class PBin256 : PBin
+namespace PBLib
 {
-}
 
+    public class PBin256 : PBin
+    {
+    }
+
+}

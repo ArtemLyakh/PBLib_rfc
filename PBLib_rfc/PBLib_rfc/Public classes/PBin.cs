@@ -9,13 +9,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public abstract class PBin
+namespace PBLib
 {
-	public virtual In In
-	{
-		get;
-		set;
-	}
+
+    public abstract class PBin
+    {
+        public virtual In In
+        {
+            get;
+            set;
+        }
+
+    }
 
 }
-

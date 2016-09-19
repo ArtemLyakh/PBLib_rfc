@@ -9,7 +9,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public class In64 : In
+namespace PBLib
 {
-}
 
+    public class In64 : In
+    {
+    }
+
+}
