@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2016-09-19T17:53:01" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2016-09-19T17:53:01" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2016-09-19T17:53:01" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2016-09-19T17:53:01" Importance="Diagnostic" Text="ProjectPath = ..\ModelingProjectLib\ModelingProjectLib.csproj" />
+  <Message Timestamp="2016-09-19T17:53:01" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2016-09-19T17:53:01" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2016-09-19T17:53:01" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2016-09-19T17:53:01" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2016-09-19T17:53:01" Importance="Medium" Text="ModelingProject's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'ModelingProject::PBin' -  (Class), 'ModelingProject::PBin32' -  (Class), 'ModelingProject::PBin64' -  (Class), 'ModelingProject::PBin128' -  (Class), 'ModelingProject::PBin256' -  (Class), 'ModelingProject::In' -  (Class), 'ModelingProject::In32' -  (Class), 'ModelingProject::In64' -  (Class), 'ModelingProject::In128' -  (Class), 'ModelingProject::In256' -  (Class) " />
+  <Message Timestamp="2016-09-19T17:53:14" Importance="Medium" Text="Project Added: D:\PBLib_rfc\PBLib_rfc\PBLib_rfc\ModelingProjectLib\ModelingProjectLib.csproj" />
+  <Message Timestamp="2016-09-19T17:53:14" Importance="Medium" Text="'ModelingProject::PBin' -  (Class) : success (file created) - D:\PBLib_rfc\PBLib_rfc\PBLib_rfc\ModelingProjectLib\GeneratedCode\PBin.cs" />
+  <Message Timestamp="2016-09-19T17:53:14" Importance="Medium" Text="'ModelingProject::PBin32' -  (Class) : success (file created) - D:\PBLib_rfc\PBLib_rfc\PBLib_rfc\ModelingProjectLib\GeneratedCode\PBin32.cs" />
+  <Message Timestamp="2016-09-19T17:53:15" Importance="Medium" Text="'ModelingProject::PBin64' -  (Class) : success (file created) - D:\PBLib_rfc\PBLib_rfc\PBLib_rfc\ModelingProjectLib\GeneratedCode\PBin64.cs" />
+  <Message Timestamp="2016-09-19T17:53:15" Importance="Medium" Text="'ModelingProject::PBin128' -  (Class) : success (file created) - D:\PBLib_rfc\PBLib_rfc\PBLib_rfc\ModelingProjectLib\GeneratedCode\PBin128.cs" />
+  <Message Timestamp="2016-09-19T17:53:16" Importance="Medium" Text="'ModelingProject::PBin256' -  (Class) : success (file created) - D:\PBLib_rfc\PBLib_rfc\PBLib_rfc\ModelingProjectLib\GeneratedCode\PBin256.cs" />
+  <Message Timestamp="2016-09-19T17:53:16" Importance="Medium" Text="'ModelingProject::In' -  (Class) : success (file created) - D:\PBLib_rfc\PBLib_rfc\PBLib_rfc\ModelingProjectLib\GeneratedCode\In.cs" />
+  <Message Timestamp="2016-09-19T17:53:16" Importance="Medium" Text="'ModelingProject::In32' -  (Class) : success (file created) - D:\PBLib_rfc\PBLib_rfc\PBLib_rfc\ModelingProjectLib\GeneratedCode\In32.cs" />
+  <Message Timestamp="2016-09-19T17:53:17" Importance="Medium" Text="'ModelingProject::In64' -  (Class) : success (file created) - D:\PBLib_rfc\PBLib_rfc\PBLib_rfc\ModelingProjectLib\GeneratedCode\In64.cs" />
+  <Message Timestamp="2016-09-19T17:53:17" Importance="Medium" Text="'ModelingProject::In128' -  (Class) : success (file created) - D:\PBLib_rfc\PBLib_rfc\PBLib_rfc\ModelingProjectLib\GeneratedCode\In128.cs" />
+  <Message Timestamp="2016-09-19T17:53:18" Importance="Medium" Text="'ModelingProject::In256' -  (Class) : success (file created) - D:\PBLib_rfc\PBLib_rfc\PBLib_rfc\ModelingProjectLib\GeneratedCode\In256.cs" />
+  <Message Timestamp="2016-09-19T17:53:18" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2016-09-19T17:53:18" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2016-09-19T17:53:18" Importance="Diagnostic" Text="ProjectPath = ..\ModelingProjectLib\ModelingProjectLib.csproj" />
+  <Message Timestamp="2016-09-19T17:53:18" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2016-09-19T17:53:18" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2016-09-19T17:53:18" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2016-09-19T17:53:18" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2016-09-19T17:53:18" Importance="Medium" Text="ModelingProject's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'ModelingProject::PBin' -  (Class), 'ModelingProject::PBin32' -  (Class), 'ModelingProject::PBin64' -  (Class), 'ModelingProject::PBin128' -  (Class), 'ModelingProject::PBin256' -  (Class), 'ModelingProject::In' -  (Class), 'ModelingProject::In32' -  (Class), 'ModelingProject::In64' -  (Class), 'ModelingProject::In128' -  (Class), 'ModelingProject::In256' -  (Class) " />
+  <Message Timestamp="2016-09-19T17:53:19" Importance="Diagnostic" Text="'ModelingProject::PBin' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-09-19T17:53:19" Importance="Diagnostic" Text="'ModelingProject::PBin32' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-09-19T17:53:19" Importance="Diagnostic" Text="'ModelingProject::PBin64' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-09-19T17:53:19" Importance="Diagnostic" Text="'ModelingProject::PBin128' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-09-19T17:53:19" Importance="Diagnostic" Text="'ModelingProject::PBin256' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-09-19T17:53:19" Importance="Diagnostic" Text="'ModelingProject::In' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-09-19T17:53:19" Importance="Diagnostic" Text="'ModelingProject::In32' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-09-19T17:53:19" Importance="Diagnostic" Text="'ModelingProject::In64' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-09-19T17:53:19" Importance="Diagnostic" Text="'ModelingProject::In128' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-09-19T17:53:19" Importance="Diagnostic" Text="'ModelingProject::In256' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-09-19T17:53:19" Importance="Diagnostic" Text="The selection included 2 elements which were not bound to a template." />
+  <Message Timestamp="2016-09-19T17:53:19" Importance="Diagnostic" Text="'ModelingProject' -  (ModelStoreModel): no bound template." />
+  <Message Timestamp="2016-09-19T17:53:19" Importance="Diagnostic" Text="'ModelingProject::' -  (Association): no bound template." />
+  <Message Timestamp="2016-09-19T17:53:19" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+</Log>
