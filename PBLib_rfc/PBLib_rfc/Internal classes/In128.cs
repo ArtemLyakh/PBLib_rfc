@@ -12,7 +12,7 @@ using System.Text;
 namespace PBLib
 {
 
-    public class In128 : In
+    internal class In128 : In
     {
     }
 

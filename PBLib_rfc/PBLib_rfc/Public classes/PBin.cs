@@ -14,11 +14,7 @@ namespace PBLib
 
     public abstract class PBin
     {
-        public virtual In In
-        {
-            get;
-            set;
-        }
+        protected In inValue;
 
     }
 

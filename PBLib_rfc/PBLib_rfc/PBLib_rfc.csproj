@@ -39,8 +39,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Internal classes\In.cs" />
+    <Compile Include="Internal classes\In128.cs" />
+    <Compile Include="Internal classes\In256.cs" />
+    <Compile Include="Internal classes\In32.cs" />
+    <Compile Include="Internal classes\In64.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Public classes\PBin.cs" />
+    <Compile Include="Public classes\PBin128.cs" />
+    <Compile Include="Public classes\PBin256.cs" />
+    <Compile Include="Public classes\PBin32.cs" />
+    <Compile Include="Public classes\PBin64.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
